@@ -1,0 +1,461 @@
+/* line 11, ../sass/index.scss */
+* {
+  font-family: "Ubuntu", regular, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 18, ../sass/index.scss */
+.wrapper {
+  width: 1160px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 24, ../sass/index.scss */
+.logo {
+  display: inline-block;
+  background-image: url("../images/logo.png");
+  width: 205px;
+  height: 37px;
+  float: left;
+  margin-top: 29px;
+}
+
+/* line 33, ../sass/index.scss */
+.header_nav {
+  float: right;
+  width: 200px;
+  margin-right: -38px;
+  margin-top: 40px;
+}
+/* line 39, ../sass/index.scss */
+.header_nav a {
+  display: block;
+  width: 17px;
+  height: 17px;
+  margin-right: 18px;
+  float: left;
+}
+
+/* line 49, ../sass/index.scss */
+.clear_fix {
+  clear: both;
+}
+
+/* line 53, ../sass/index.scss */
+.menu {
+  height: 56px;
+  background-color: #2a2d32;
+  margin-top: 37px;
+  margin-bottom: 40px;
+}
+/* line 59, ../sass/index.scss */
+.menu li {
+  list-style: none;
+}
+/* line 63, ../sass/index.scss */
+.menu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 56px;
+  border-right: 1px solid black;
+  font-family: "Ubuntu", regular, sans-serif;
+  font-size: 14px;
+}
+/* line 76, ../sass/index.scss */
+.menu .menu_home {
+  background-color: #248cec;
+}
+/* line 80, ../sass/index.scss */
+.menu a:hover {
+  color: #f4b60d;
+}
+/* line 85, ../sass/index.scss */
+.menu .menu_inp {
+  margin-top: 9px;
+  background-color: #35383c;
+  float: right;
+  height: 36px;
+  margin-right: 12px;
+  width: 238px;
+  border: 1px solid black;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+/* line 99, ../sass/index.scss */
+.img2 {
+  display: none;
+}
+
+/* line 103, ../sass/index.scss */
+.img3 {
+  display: none;
+}
+
+/* line 109, ../sass/index.scss */
+.slider {
+  height: 470px;
+}
+
+/* line 113, ../sass/index.scss */
+.slider_img1 {
+  margin-top: 233px;
+  margin-left: 34px;
+}
+
+/* line 118, ../sass/index.scss */
+.cont_but {
+  top: 635px;
+  position: absolute;
+  right: 530px;
+}
+
+/* line 124, ../sass/index.scss */
+.slider_but {
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 132, ../sass/index.scss */
+.but_hov {
+  display: none;
+  width: 9px;
+  height: 9px;
+  background-color: black;
+  margin: 3px;
+}
+
+/* line 140, ../sass/index.scss */
+.main_hov {
+  display: block;
+}
+
+/* line 144, ../sass/index.scss */
+#img1 {
+  background-image: url("../images/Rectangle%205%20copy%202.png");
+  height: 470px;
+  background-size: cover;
+}
+
+/* line 150, ../sass/index.scss */
+#img2 {
+  display: none;
+}
+
+/* line 154, ../sass/index.scss */
+#img3 {
+  display: none;
+}
+
+/* line 161, ../sass/index.scss */
+.articles {
+  margin-top: 54px;
+  font-family: "Ubuntu Medium", sans-serif;
+}
+/* line 165, ../sass/index.scss */
+.articles div {
+  width: 385px;
+  float: left;
+  background-position-x: 137px;
+  background-position-y: 21px;
+}
+/* line 172, ../sass/index.scss */
+.articles .article_number {
+  color: #efeff0;
+  font-size: 90px;
+}
+/* line 177, ../sass/index.scss */
+.articles .article_content {
+  width: 250px;
+  margin-left: 32px;
+  margin-top: 67px;
+}
+/* line 183, ../sass/index.scss */
+.articles p {
+  float: left;
+  font-size: 20px;
+}
+/* line 187, ../sass/index.scss */
+.articles p span {
+  color: #8a8a8a;
+  font-size: 13px;
+  font-family: "Arial", sans-serif;
+  display: inline-block;
+  margin-top: 28px;
+  line-height: 20px;
+}
+/* line 198, ../sass/index.scss */
+.articles a {
+  margin-top: 7px;
+  margin-left: 140px;
+  text-decoration: none;
+  color: #2a2d32;
+  font-size: 13px;
+  display: inline-block;
+}
+/* line 207, ../sass/index.scss */
+.articles a:hover {
+  color: #248cec;
+}
+/* line 211, ../sass/index.scss */
+.articles .article1 {
+  background-image: url("../images/settings.png");
+  background-repeat: no-repeat;
+}
+/* line 216, ../sass/index.scss */
+.articles .article2 {
+  background-image: url("../images/params.png");
+  background-repeat: no-repeat;
+}
+/* line 221, ../sass/index.scss */
+.articles .article3 {
+  background-image: url("../images/truck.png");
+  background-repeat: no-repeat;
+}
+
+/* line 229, ../sass/index.scss */
+.services {
+  height: 500px;
+  background-color: #2a2d32;
+  margin-top: 82px;
+  font-size: 24px;
+  font-family: "Ubuntu Medium", sans-serif;
+  color: white;
+}
+/* line 237, ../sass/index.scss */
+.services p {
+  padding-top: 43px;
+}
+/* line 242, ../sass/index.scss */
+.services a {
+  display: block;
+  height: 260px;
+  width: 260px;
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 40px;
+  margin-top: 52px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  line-height: 45px;
+  position: relative;
+}
+/* line 258, ../sass/index.scss */
+.services a div {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  opacity: 0.9;
+  background-color: #248cec;
+  display: none;
+}
+/* line 268, ../sass/index.scss */
+.services a:hover {
+  color: #f4b60d;
+}
+/* line 272, ../sass/index.scss */
+.services .first_serv_img {
+  margin-left: 0;
+}
+
+/* line 281, ../sass/index.scss */
+.news {
+  background-color: #f7f7f7;
+  height: 543px;
+  font-family: "Ubuntu Medium", sans-serif;
+}
+/* line 286, ../sass/index.scss */
+.news .latest_news, .news .banner_place {
+  box-sizing: border-box;
+  width: 580px;
+  height: 543px;
+  float: left;
+}
+/* line 293, ../sass/index.scss */
+.news ul {
+  list-style: none;
+}
+/* line 297, ../sass/index.scss */
+.news .latest_news {
+  font-size: 24px;
+}
+/* line 300, ../sass/index.scss */
+.news .latest_news .news_header {
+  margin-top: 59px;
+  font-size: 24px;
+  font-weight: 500;
+}
+/* line 306, ../sass/index.scss */
+.news .latest_news img {
+  float: left;
+}
+/* line 310, ../sass/index.scss */
+.news .latest_news .news_block_cont {
+  width: 390px;
+  float: left;
+  height: 170px;
+  margin-left: 33px;
+}
+/* line 317, ../sass/index.scss */
+.news .latest_news .last_news_header {
+  font-size: 16px;
+  text-decoration: none;
+  color: #2a2d32;
+}
+/* line 323, ../sass/index.scss */
+.news .latest_news .last_news_header:hover {
+  color: #248cec;
+}
+/* line 327, ../sass/index.scss */
+.news .latest_news .last_news_content {
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+  color: #8a8a8a;
+}
+/* line 332, ../sass/index.scss */
+.news .latest_news .news_main {
+  margin-top: 44px;
+  margin-left: -18px;
+  height: 150px;
+}
+
+/* line 344, ../sass/index.scss */
+.banner_place .banner_list_header {
+  background-image: url("../images/list.png");
+  width: 561px;
+  height: 39px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #2a2d32;
+  margin-left: 18px;
+  padding-left: 53px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  position: relative;
+}
+/* line 359, ../sass/index.scss */
+.banner_place .banner_list_header .list_header_bg {
+  position: absolute;
+  left: 0;
+  display: none;
+}
+/* line 366, ../sass/index.scss */
+.banner_place ul {
+  margin-top: 38px;
+}
+/* line 370, ../sass/index.scss */
+.banner_place .list_content {
+  display: none;
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+  color: #8a8a8a;
+  margin: 33px 0 62px 55px;
+}
+/* line 378, ../sass/index.scss */
+.banner_place .news_header {
+  margin-top: 59px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 17px;
+}
+
+/* line 391, ../sass/index.scss */
+.nav_logos {
+  margin-top: 87px;
+  margin-left: 84px;
+  padding-bottom: 88px;
+}
+/* line 396, ../sass/index.scss */
+.nav_logos li {
+  float: left;
+  list-style: none;
+  margin-left: 51px;
+}
+
+/* line 408, ../sass/index.scss */
+.footer_nav {
+  color: white;
+  font-family: "Ubuntu", regular, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: #2a2d32;
+}
+/* line 417, ../sass/index.scss */
+.footer_nav .footer_nav_item {
+  width: 290px;
+  float: left;
+  margin-top: 54px;
+  padding-bottom: 65px;
+}
+/* line 424, ../sass/index.scss */
+.footer_nav ul {
+  list-style: none;
+}
+/* line 428, ../sass/index.scss */
+.footer_nav a {
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  opacity: 0.3;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  border-bottom: 1px solid #828385;
+  line-height: 45px;
+}
+/* line 439, ../sass/index.scss */
+.footer_nav a:hover {
+  color: #248cec;
+}
+
+/* line 445, ../sass/index.scss */
+.footer_contacts {
+  background-color: #35383c;
+  padding-bottom: 12px;
+}
+/* line 449, ../sass/index.scss */
+.footer_contacts .con_content_1, .footer_contacts .con_content_2, .footer_contacts .con_content_3, .footer_contacts .copi {
+  font-size: 12px;
+  font-family: "Arial", sans-serif;
+  color: #828385;
+  float: left;
+  background-repeat: no-repeat;
+}
+/* line 457, ../sass/index.scss */
+.footer_contacts div {
+  padding-top: 11px;
+  padding-left: 16px;
+  background-position-y: 10px;
+}
+/* line 463, ../sass/index.scss */
+.footer_contacts .con_content_1 {
+  background-image: url("../images/1location.png");
+}
+/* line 467, ../sass/index.scss */
+.footer_contacts .con_content_2 {
+  background-image: url("../images/2iPhone-potrait.png");
+  margin-left: 38px;
+}
+/* line 472, ../sass/index.scss */
+.footer_contacts .con_content_3 {
+  background-image: url("../images/3front-email.png");
+  margin-left: 43px;
+}
+/* line 477, ../sass/index.scss */
+.footer_contacts .copi {
+  float: right;
+  margin-right: 7px;
+}
